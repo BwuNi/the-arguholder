@@ -1,0 +1,20 @@
+{
+  "name": "the-arguholder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -d",
+    "start": "tsc && node ./dist/index.js"
+  },
+  "author": "bwuning",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "@types/commander": "^2.12.2",
+    "@types/node": "^10.12.0",
+    "typescript": "^3.3.3333"
+  }
+}
